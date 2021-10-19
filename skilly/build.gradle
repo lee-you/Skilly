@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
     id 'com.github.dcendents.android-maven'
 }
 group = 'com.github.lee-you'
@@ -9,7 +9,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.tapque.game.skilly"
+        //applicationId "com.tapque.game.skilly"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
